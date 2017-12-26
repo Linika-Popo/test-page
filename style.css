@@ -209,15 +209,15 @@ body {
     height: 80px;
     float: left;
     background: url("images/userpic.png") no-repeat;    
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .block5 .review .rvw {
-    width: 80%;
+    width: 81%;
     float: left;
-    background: #ebebeb;
+    background: url("images/bg_review.png") no-repeat;
     border-radius: 5px;
-    padding: 12px 15px;   
+    padding: 12px 5px 12px 25px;   
 }
 
 .block5 .rvw {
