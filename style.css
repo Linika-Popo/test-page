@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -279,11 +281,12 @@ body {
 .block6 .benefits ol {
     text-align: left;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 24px;   
+    padding: 15px 35px; 
 }
 
 .block6 .buy button {
-    width: 90%;
+    width: 86%;
     padding: 11px 0;
     border-radius: 5px;
     margin-bottom: 20px;
