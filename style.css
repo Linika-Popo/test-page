@@ -91,34 +91,24 @@ body {
 .block3 .h4 {
     text-align: center;
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
     color: #445161;
     line-height: 36px;
-
-}
-
-.block3 .list1, .block3 .list2 {
-    width: 50%;
-}
-
-.block3 .list1 {
-    float: left;
-}
-
-.block3 .list2 {
-    float: right;
-}
-
-.block3 ul {
-    list-style: none;   
-    margin: 0;    
-    padding-left: 40px;
+    margin-top: -6px;
+    margin-bottom: 6px;
 }
 
 .block3 .list li {
+    width: 50%;
+    float: left;
+    list-style: none;    
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 20px;
+    padding: 0 20px 26px 40px;
+}
+
+.block3 .list li:nth-child(5), .block3 .list li:nth-child(6) {
+    padding-bottom: 0;
 }
 
 .block3 .list li::before {
@@ -131,29 +121,19 @@ body {
     margin-bottom: -28px;
 }
 
-.block3 .list li:last-child {
-    padding-bottom: 10px;
-}
 
 .block4 .h4 {
     text-align: center;
     font-size: 30px;
     line-height: 36px;    
-    color: #445161;    
-}
-
-.block4 .screenshots .scr_left {
-    width: 50%;
-    float: left;    
-}
-
-.block4 .screenshots .scr_right {
-    width: 50%;
-    float: right;
+    color: #445161;   
+    margin-top: -6px;    
 }
 
 .block4 .scr {
     padding-top: 20px;
+    width: 49%;
+    float: left;
 }
 
 .block4 .scr .img {
@@ -162,6 +142,7 @@ body {
     background-color: #445161;
     float: left;
     margin-right: 15px;
+    margin-top: 7px;
 }
 
 .block4 .scr .description {
