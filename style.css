@@ -172,41 +172,44 @@ body {
     color: #445161;
 }
 
-.block5 .review_left {
-    width: 50%;
-    float: left;    
-}
-
-.block5 .review_right {
-    width: 50%;
-    float: right;
-    margin-right: -15px;
-}
-
 .block5 .rvw_box {
+    width: 570px;
+    float: left;
     padding-top: 25px;
 }
+
+
 
 .block5 .review .img {
     width: 80px;
     height: 80px;
     float: left;
-    background: url("images/userpic.png") no-repeat;    
-    margin-right: 15px;
+    background: url("images/userpic.png") no-repeat;   
 }
 
 .block5 .review .rvw {
-    width: 81%;
-    float: left;
-    background: url("images/bg_review.png") no-repeat;
+    background: #ebebeb;
     border-radius: 5px;
-    padding: 12px 5px 12px 25px;   
-}
-
-.block5 .rvw {
+    padding: 12px 5px 12px 15px;
+    margin-left: 100px;    
     font-size: 14px;
     line-height: 18px;
 } 
+.block5 .rvw::before {
+    content: '';
+    position: absolute;
+    top: 1715px;
+    left: 450px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+    border-bottom: 15px solid transparent;    
+}
+
+.block5 .review .rvw_box:nth-child(odd) {
+    margin-right: 35px; 
+}
 
 .block5 .rvw_text {
     font-style: italic;
@@ -226,7 +229,7 @@ body {
 }
 
 .block6 .offers {
-    padding-left: 95px;
+    text-align: center;
 }
 
 .block6 .offer {
@@ -296,7 +299,7 @@ body {
     padding-bottom: 20px;
 }
 
-.block7 .message {
+.block7 .msg {
     float: left;
     width: 65%;
     padding-left: 50px;
@@ -316,8 +319,13 @@ body {
     margin-bottom: 21px;
     border: none;
     border-radius: 5px;
-    width: 95%;
+    width: 100%;
 }
+
+.block7 .input {
+    padding-right: 5%;
+}
+
 .block7 .input .message {
     height: 170px;    
     color: #445162;
@@ -328,12 +336,12 @@ body {
     margin-bottom: 22px;
     border: none;
     border-radius: 5px;
-    width: 95%;
+    width: 100%;
 } 
 
 .block7 .button {
-    width: 95%;
-    padding: 0 34%;
+    width: 100%;
+    text-align: center;
 }
 
 .block7 .button button {
