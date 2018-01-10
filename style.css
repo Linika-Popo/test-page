@@ -201,11 +201,11 @@ body {
     position: absolute;    
     width: 0;
     height: 0;
-    left: -15px;
-    top:15px;
-    border-top: 15px solid transparent;
-    border-right: 15px solid #ebebeb;
-    border-bottom: 15px solid transparent;    
+    left: -12px;
+    top:25px;
+    border-top: 11px solid transparent;
+    border-right: 12px solid #ebebeb;
+    border-bottom: 11px solid transparent;    
 }
 
 .block5 .review .rvw_box:nth-child(odd) {
