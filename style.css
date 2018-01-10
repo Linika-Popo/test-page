@@ -194,14 +194,15 @@ body {
     margin-left: 100px;    
     font-size: 14px;
     line-height: 18px;
+    position: relative;
 } 
 .block5 .rvw::before {
     content: '';
-    position: absolute;
-    top: 1715px;
-    left: 450px;
+    position: absolute;    
     width: 0;
     height: 0;
+    left: -15px;
+    top:15px;
     border-top: 15px solid transparent;
     border-right: 15px solid #ebebeb;
     border-bottom: 15px solid transparent;    
